@@ -1,0 +1,6 @@
+framework module Pods_CJFM {
+  umbrella header "Pods-CJFM-umbrella.h"
+
+  export *
+  module * { export * }
+}

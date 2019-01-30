@@ -7,25 +7,152 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F5C53D0421E4A9E500AC6AB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C53D0321E4A9E500AC6AB5 /* AppDelegate.m */; };
-		F5C53D0721E4A9E500AC6AB5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C53D0621E4A9E500AC6AB5 /* ViewController.m */; };
+		8B60C702C73ACC0E0E782763 /* Pods_CJFM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8ECDE9D29E2CE633A4E598 /* Pods_CJFM.framework */; };
+		F5011F102201491000726860 /* WAITodayFireVoiceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5011F0E2201491000726860 /* WAITodayFireVoiceCell.m */; };
+		F5011F112201491000726860 /* WAITodayFireVoiceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5011F0F2201491000726860 /* WAITodayFireVoiceCell.xib */; };
+		F5011F142201498700726860 /* WAIDownLoadVoiceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5011F132201498700726860 /* WAIDownLoadVoiceModel.m */; };
+		F5011F1A22017CC800726860 /* WAISetValueTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F5011F1922017CC800726860 /* WAISetValueTool.m */; };
+		F533167621FEF155000818B8 /* WAIMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F533167421FEF155000818B8 /* WAIMenuCell.m */; };
+		F533167721FEF155000818B8 /* WAIMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F533167521FEF155000818B8 /* WAIMenuCell.xib */; };
+		F58EA68E21FEA00800E7E531 /* WAIMenuBarShowDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F58EA68D21FEA00800E7E531 /* WAIMenuBarShowDetailVC.m */; };
+		F58EA69321FEA2A800E7E531 /* NSString+SegmentModelProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = F58EA69221FEA2A800E7E531 /* NSString+SegmentModelProtocol.m */; };
+		F5B83E4C21FED30C00E83209 /* WAISegmentRLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F58EA69521FEA7E400E7E531 /* WAISegmentRLButton.m */; };
 		F5C53D0A21E4A9E500AC6AB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C53D0821E4A9E500AC6AB5 /* Main.storyboard */; };
 		F5C53D0C21E4A9E700AC6AB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C53D0B21E4A9E700AC6AB5 /* Assets.xcassets */; };
 		F5C53D0F21E4A9E700AC6AB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C53D0D21E4A9E700AC6AB5 /* LaunchScreen.storyboard */; };
-		F5C53D1221E4A9E700AC6AB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C53D1121E4A9E700AC6AB5 /* main.m */; };
+		F5C962A921FC34590047B7F3 /* WAIDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C962A821FC34590047B7F3 /* WAIDownloadManager.m */; };
+		F5C962AD21FC45CB0047B7F3 /* WAISegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C962AC21FC45CB0047B7F3 /* WAISegmentBar.m */; };
+		F5C962B021FC51130047B7F3 /* WAISegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C962AF21FC51130047B7F3 /* WAISegmentViewController.m */; };
+		F5C962B321FC57510047B7F3 /* WAISegmentBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C962B221FC57510047B7F3 /* WAISegmentBarConfig.m */; };
+		F5CD74A521F96AD3009B5A75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CD749F21F96AD3009B5A75 /* AppDelegate.m */; };
+		F5CD74A821F98F73009B5A75 /* WAINavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CD74A721F98F73009B5A75 /* WAINavigationBar.m */; };
+		F5CD74AB21F9958B009B5A75 /* WAINavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CD74AA21F9958B009B5A75 /* WAINavigationController.m */; };
+		F5CD74AE21F99839009B5A75 /* WAITabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CD74AD21F99839009B5A75 /* WAITabBar.m */; };
+		F5CD74B121F998C0009B5A75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CD74B021F998C0009B5A75 /* main.m */; };
+		F5CD74B621F99A7A009B5A75 /* WAIMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CD74B521F99A7A009B5A75 /* WAIMiddleView.m */; };
+		F5CD74B821F99A8C009B5A75 /* WAIMiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5CD74B721F99A8C009B5A75 /* WAIMiddleView.xib */; };
+		F5CD74BE21F9A2C0009B5A75 /* UIView+WAIExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CD74BD21F9A2C0009B5A75 /* UIView+WAIExtension.m */; };
+		F5CD74C121F9A6CB009B5A75 /* WAITabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CD74C021F9A6CB009B5A75 /* WAITabBarController.m */; };
+		F5CD74C421F9AACF009B5A75 /* CALayer+WAIPauseAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CD74C321F9AACF009B5A75 /* CALayer+WAIPauseAnimate.m */; };
+		F5CD74CA21F9B302009B5A75 /* UIImage+WAIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CD74C921F9B302009B5A75 /* UIImage+WAIImage.m */; };
+		F5CD74D121F9BCE8009B5A75 /* WAIFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CD74D021F9BCE8009B5A75 /* WAIFindViewController.m */; };
+		F5DDC31C22002E4C005F5076 /* WAIConst.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DDC31B22002E4C005F5076 /* WAIConst.m */; };
+		F5DDC31F22003A1E005F5076 /* WAIDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DDC31E22003A1E005F5076 /* WAIDeviceManager.m */; };
+		F5DDC32622003F7F005F5076 /* WAIDownloadBaseTVController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DDC32522003F7F005F5076 /* WAIDownloadBaseTVController.m */; };
+		F5DDC32922003FC5005F5076 /* WAIAlbumTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DDC32822003FC5005F5076 /* WAIAlbumTVC.m */; };
+		F5DDC32C22003FD2005F5076 /* WAIVoiceTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DDC32B22003FD2005F5076 /* WAIVoiceTVC.m */; };
+		F5DDC32F22003FE6005F5076 /* WAIDownloadingTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DDC32E22003FE6005F5076 /* WAIDownloadingTVC.m */; };
+		F5DDC33222004112005F5076 /* WAINoDlownloadView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DDC33122004112005F5076 /* WAINoDlownloadView.m */; };
+		F5DDC3342200411D005F5076 /* WAINoDlownloadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5DDC3332200411D005F5076 /* WAINoDlownloadView.xib */; };
+		F5DDC337220047B0005F5076 /* WAIDownloadService.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DDC336220047B0005F5076 /* WAIDownloadService.m */; };
+		F5DDC33A22004A33005F5076 /* WAITodayFireVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DDC33922004A33005F5076 /* WAITodayFireVC.m */; };
+		F5DDC33D22004C38005F5076 /* WAICategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DDC33C22004C38005F5076 /* WAICategoryModel.m */; };
+		F5DDC34022004D85005F5076 /* WAITodayFireVoiceListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DDC33F22004D85005F5076 /* WAITodayFireVoiceListVC.m */; };
+		F5DDC3432200532F005F5076 /* WAISessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DDC3422200532F005F5076 /* WAISessionManager.m */; };
+		F5DDC3462200578C005F5076 /* WAIDownLoadDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DDC3452200578C005F5076 /* WAIDownLoadDataTool.m */; };
+		F5DDC34922005813005F5076 /* WAIShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DDC34822005813005F5076 /* WAIShareModel.m */; };
+		F5F1DD1C21FAB4DD002BC357 /* WAIDownLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F1DD1B21FAB4DD002BC357 /* WAIDownLoadViewController.m */; };
+		F5F1DD2021FADFBD002BC357 /* WAIMainModuleAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F1DD1F21FADFBD002BC357 /* WAIMainModuleAPI.m */; };
+		F5F1DD2421FAEDD9002BC357 /* WAIDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F1DD2321FAEDD9002BC357 /* WAIDownLoader.m */; };
+		F5F1DD2721FAEEF1002BC357 /* WAIFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F1DD2621FAEEF1002BC357 /* WAIFileTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D8ECDE9D29E2CE633A4E598 /* Pods_CJFM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CJFM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92540884DB9273FE3E8031E4 /* Pods-CJFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJFM.release.xcconfig"; path = "Pods/Target Support Files/Pods-CJFM/Pods-CJFM.release.xcconfig"; sourceTree = "<group>"; };
+		A33C264D862E385F2A4E35D5 /* Pods-CJFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJFM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CJFM/Pods-CJFM.debug.xcconfig"; sourceTree = "<group>"; };
+		F5011F0D2201491000726860 /* WAITodayFireVoiceCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAITodayFireVoiceCell.h; sourceTree = "<group>"; };
+		F5011F0E2201491000726860 /* WAITodayFireVoiceCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAITodayFireVoiceCell.m; sourceTree = "<group>"; };
+		F5011F0F2201491000726860 /* WAITodayFireVoiceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WAITodayFireVoiceCell.xib; sourceTree = "<group>"; };
+		F5011F122201498700726860 /* WAIDownLoadVoiceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAIDownLoadVoiceModel.h; sourceTree = "<group>"; };
+		F5011F132201498700726860 /* WAIDownLoadVoiceModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAIDownLoadVoiceModel.m; sourceTree = "<group>"; };
+		F5011F1722017B8800726860 /* WAIDownLoadAPIDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAIDownLoadAPIDefine.h; sourceTree = "<group>"; };
+		F5011F1822017CC800726860 /* WAISetValueTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAISetValueTool.h; sourceTree = "<group>"; };
+		F5011F1922017CC800726860 /* WAISetValueTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAISetValueTool.m; sourceTree = "<group>"; };
+		F533167321FEF155000818B8 /* WAIMenuCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAIMenuCell.h; sourceTree = "<group>"; };
+		F533167421FEF155000818B8 /* WAIMenuCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAIMenuCell.m; sourceTree = "<group>"; };
+		F533167521FEF155000818B8 /* WAIMenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WAIMenuCell.xib; sourceTree = "<group>"; };
+		F58EA68C21FEA00800E7E531 /* WAIMenuBarShowDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAIMenuBarShowDetailVC.h; sourceTree = "<group>"; };
+		F58EA68D21FEA00800E7E531 /* WAIMenuBarShowDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAIMenuBarShowDetailVC.m; sourceTree = "<group>"; };
+		F58EA69021FEA28600E7E531 /* WAISegmentModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAISegmentModelProtocol.h; sourceTree = "<group>"; };
+		F58EA69121FEA2A800E7E531 /* NSString+SegmentModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SegmentModelProtocol.h"; sourceTree = "<group>"; };
+		F58EA69221FEA2A800E7E531 /* NSString+SegmentModelProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SegmentModelProtocol.m"; sourceTree = "<group>"; };
+		F58EA69421FEA7E400E7E531 /* WAISegmentRLButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAISegmentRLButton.h; sourceTree = "<group>"; };
+		F58EA69521FEA7E400E7E531 /* WAISegmentRLButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAISegmentRLButton.m; sourceTree = "<group>"; };
 		F5C53CFF21E4A9E500AC6AB5 /* CJFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CJFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5C53D0221E4A9E500AC6AB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F5C53D0321E4A9E500AC6AB5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F5C53D0521E4A9E500AC6AB5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F5C53D0621E4A9E500AC6AB5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F5C53D0921E4A9E500AC6AB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5C53D0B21E4A9E700AC6AB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5C53D0E21E4A9E700AC6AB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5C53D1021E4A9E700AC6AB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F5C53D1121E4A9E700AC6AB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5C962A721FC34590047B7F3 /* WAIDownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAIDownloadManager.h; sourceTree = "<group>"; };
+		F5C962A821FC34590047B7F3 /* WAIDownloadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAIDownloadManager.m; sourceTree = "<group>"; };
+		F5C962AB21FC45CB0047B7F3 /* WAISegmentBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAISegmentBar.h; sourceTree = "<group>"; };
+		F5C962AC21FC45CB0047B7F3 /* WAISegmentBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAISegmentBar.m; sourceTree = "<group>"; };
+		F5C962AE21FC51130047B7F3 /* WAISegmentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAISegmentViewController.h; sourceTree = "<group>"; };
+		F5C962AF21FC51130047B7F3 /* WAISegmentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAISegmentViewController.m; sourceTree = "<group>"; };
+		F5C962B121FC57510047B7F3 /* WAISegmentBarConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAISegmentBarConfig.h; sourceTree = "<group>"; };
+		F5C962B221FC57510047B7F3 /* WAISegmentBarConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAISegmentBarConfig.m; sourceTree = "<group>"; };
+		F5CD749E21F96AD3009B5A75 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5CD749F21F96AD3009B5A75 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5CD74A621F98F73009B5A75 /* WAINavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAINavigationBar.h; sourceTree = "<group>"; };
+		F5CD74A721F98F73009B5A75 /* WAINavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAINavigationBar.m; sourceTree = "<group>"; };
+		F5CD74A921F9958B009B5A75 /* WAINavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAINavigationController.h; sourceTree = "<group>"; };
+		F5CD74AA21F9958B009B5A75 /* WAINavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAINavigationController.m; sourceTree = "<group>"; };
+		F5CD74AC21F99839009B5A75 /* WAITabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAITabBar.h; sourceTree = "<group>"; };
+		F5CD74AD21F99839009B5A75 /* WAITabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAITabBar.m; sourceTree = "<group>"; };
+		F5CD74B021F998C0009B5A75 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5CD74B321F999F7009B5A75 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F5CD74B421F99A7A009B5A75 /* WAIMiddleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAIMiddleView.h; sourceTree = "<group>"; };
+		F5CD74B521F99A7A009B5A75 /* WAIMiddleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAIMiddleView.m; sourceTree = "<group>"; };
+		F5CD74B721F99A8C009B5A75 /* WAIMiddleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WAIMiddleView.xib; sourceTree = "<group>"; };
+		F5CD74BC21F9A2C0009B5A75 /* UIView+WAIExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+WAIExtension.h"; sourceTree = "<group>"; };
+		F5CD74BD21F9A2C0009B5A75 /* UIView+WAIExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+WAIExtension.m"; sourceTree = "<group>"; };
+		F5CD74BF21F9A6CB009B5A75 /* WAITabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAITabBarController.h; sourceTree = "<group>"; };
+		F5CD74C021F9A6CB009B5A75 /* WAITabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAITabBarController.m; sourceTree = "<group>"; };
+		F5CD74C221F9AACF009B5A75 /* CALayer+WAIPauseAnimate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+WAIPauseAnimate.h"; sourceTree = "<group>"; };
+		F5CD74C321F9AACF009B5A75 /* CALayer+WAIPauseAnimate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+WAIPauseAnimate.m"; sourceTree = "<group>"; };
+		F5CD74C821F9B302009B5A75 /* UIImage+WAIImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+WAIImage.h"; sourceTree = "<group>"; };
+		F5CD74C921F9B302009B5A75 /* UIImage+WAIImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WAIImage.m"; sourceTree = "<group>"; };
+		F5CD74CF21F9BCE8009B5A75 /* WAIFindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAIFindViewController.h; sourceTree = "<group>"; };
+		F5CD74D021F9BCE8009B5A75 /* WAIFindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAIFindViewController.m; sourceTree = "<group>"; };
+		F5DDC31A22002E4C005F5076 /* WAIConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAIConst.h; sourceTree = "<group>"; };
+		F5DDC31B22002E4C005F5076 /* WAIConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAIConst.m; sourceTree = "<group>"; };
+		F5DDC31D22003A1E005F5076 /* WAIDeviceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAIDeviceManager.h; sourceTree = "<group>"; };
+		F5DDC31E22003A1E005F5076 /* WAIDeviceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAIDeviceManager.m; sourceTree = "<group>"; };
+		F5DDC32422003F7F005F5076 /* WAIDownloadBaseTVController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAIDownloadBaseTVController.h; sourceTree = "<group>"; };
+		F5DDC32522003F7F005F5076 /* WAIDownloadBaseTVController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAIDownloadBaseTVController.m; sourceTree = "<group>"; };
+		F5DDC32722003FC5005F5076 /* WAIAlbumTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAIAlbumTVC.h; sourceTree = "<group>"; };
+		F5DDC32822003FC5005F5076 /* WAIAlbumTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAIAlbumTVC.m; sourceTree = "<group>"; };
+		F5DDC32A22003FD2005F5076 /* WAIVoiceTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAIVoiceTVC.h; sourceTree = "<group>"; };
+		F5DDC32B22003FD2005F5076 /* WAIVoiceTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAIVoiceTVC.m; sourceTree = "<group>"; };
+		F5DDC32D22003FE6005F5076 /* WAIDownloadingTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAIDownloadingTVC.h; sourceTree = "<group>"; };
+		F5DDC32E22003FE6005F5076 /* WAIDownloadingTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAIDownloadingTVC.m; sourceTree = "<group>"; };
+		F5DDC33022004112005F5076 /* WAINoDlownloadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAINoDlownloadView.h; sourceTree = "<group>"; };
+		F5DDC33122004112005F5076 /* WAINoDlownloadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAINoDlownloadView.m; sourceTree = "<group>"; };
+		F5DDC3332200411D005F5076 /* WAINoDlownloadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WAINoDlownloadView.xib; sourceTree = "<group>"; };
+		F5DDC335220047B0005F5076 /* WAIDownloadService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAIDownloadService.h; sourceTree = "<group>"; };
+		F5DDC336220047B0005F5076 /* WAIDownloadService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAIDownloadService.m; sourceTree = "<group>"; };
+		F5DDC33822004A33005F5076 /* WAITodayFireVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAITodayFireVC.h; sourceTree = "<group>"; };
+		F5DDC33922004A33005F5076 /* WAITodayFireVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAITodayFireVC.m; sourceTree = "<group>"; };
+		F5DDC33B22004C38005F5076 /* WAICategoryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAICategoryModel.h; sourceTree = "<group>"; };
+		F5DDC33C22004C38005F5076 /* WAICategoryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAICategoryModel.m; sourceTree = "<group>"; };
+		F5DDC33E22004D85005F5076 /* WAITodayFireVoiceListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAITodayFireVoiceListVC.h; sourceTree = "<group>"; };
+		F5DDC33F22004D85005F5076 /* WAITodayFireVoiceListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAITodayFireVoiceListVC.m; sourceTree = "<group>"; };
+		F5DDC3412200532F005F5076 /* WAISessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAISessionManager.h; sourceTree = "<group>"; };
+		F5DDC3422200532F005F5076 /* WAISessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAISessionManager.m; sourceTree = "<group>"; };
+		F5DDC3442200578C005F5076 /* WAIDownLoadDataTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAIDownLoadDataTool.h; sourceTree = "<group>"; };
+		F5DDC3452200578C005F5076 /* WAIDownLoadDataTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAIDownLoadDataTool.m; sourceTree = "<group>"; };
+		F5DDC34722005813005F5076 /* WAIShareModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAIShareModel.h; sourceTree = "<group>"; };
+		F5DDC34822005813005F5076 /* WAIShareModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAIShareModel.m; sourceTree = "<group>"; };
+		F5DDC34A22005B25005F5076 /* Sington.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sington.h; sourceTree = "<group>"; };
+		F5F1DD1A21FAB4DD002BC357 /* WAIDownLoadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAIDownLoadViewController.h; sourceTree = "<group>"; };
+		F5F1DD1B21FAB4DD002BC357 /* WAIDownLoadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAIDownLoadViewController.m; sourceTree = "<group>"; };
+		F5F1DD1E21FADFBD002BC357 /* WAIMainModuleAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAIMainModuleAPI.h; sourceTree = "<group>"; };
+		F5F1DD1F21FADFBD002BC357 /* WAIMainModuleAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAIMainModuleAPI.m; sourceTree = "<group>"; };
+		F5F1DD2221FAEDD9002BC357 /* WAIDownLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAIDownLoader.h; sourceTree = "<group>"; };
+		F5F1DD2321FAEDD9002BC357 /* WAIDownLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAIDownLoader.m; sourceTree = "<group>"; };
+		F5F1DD2521FAEEF1002BC357 /* WAIFileTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAIFileTool.h; sourceTree = "<group>"; };
+		F5F1DD2621FAEEF1002BC357 /* WAIFileTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAIFileTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +160,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B60C702C73ACC0E0E782763 /* Pods_CJFM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BB01A7A0C661024F6A55B17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D8ECDE9D29E2CE633A4E598 /* Pods_CJFM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE9E1826FADC4EEDE4583CFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A33C264D862E385F2A4E35D5 /* Pods-CJFM.debug.xcconfig */,
+				92540884DB9273FE3E8031E4 /* Pods-CJFM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F5C53CF621E4A9E500AC6AB5 = {
 			isa = PBXGroup;
 			children = (
 				F5C53D0121E4A9E500AC6AB5 /* CJFM */,
 				F5C53D0021E4A9E500AC6AB5 /* Products */,
+				BE9E1826FADC4EEDE4583CFA /* Pods */,
+				4BB01A7A0C661024F6A55B17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +205,307 @@
 		F5C53D0121E4A9E500AC6AB5 /* CJFM */ = {
 			isa = PBXGroup;
 			children = (
-				F5C53D0221E4A9E500AC6AB5 /* AppDelegate.h */,
-				F5C53D0321E4A9E500AC6AB5 /* AppDelegate.m */,
-				F5C53D0521E4A9E500AC6AB5 /* ViewController.h */,
-				F5C53D0621E4A9E500AC6AB5 /* ViewController.m */,
+				F5CD749C21F96AD3009B5A75 /* classes */,
 				F5C53D0821E4A9E500AC6AB5 /* Main.storyboard */,
 				F5C53D0B21E4A9E700AC6AB5 /* Assets.xcassets */,
 				F5C53D0D21E4A9E700AC6AB5 /* LaunchScreen.storyboard */,
 				F5C53D1021E4A9E700AC6AB5 /* Info.plist */,
-				F5C53D1121E4A9E700AC6AB5 /* main.m */,
+				F5CD74AF21F998AF009B5A75 /* sources */,
 			);
 			path = CJFM;
+			sourceTree = "<group>";
+		};
+		F5C962AA21FC436F0047B7F3 /* SegmentBarTool */ = {
+			isa = PBXGroup;
+			children = (
+				F5C962AB21FC45CB0047B7F3 /* WAISegmentBar.h */,
+				F5C962AC21FC45CB0047B7F3 /* WAISegmentBar.m */,
+				F5C962AE21FC51130047B7F3 /* WAISegmentViewController.h */,
+				F5C962AF21FC51130047B7F3 /* WAISegmentViewController.m */,
+				F5C962B121FC57510047B7F3 /* WAISegmentBarConfig.h */,
+				F5C962B221FC57510047B7F3 /* WAISegmentBarConfig.m */,
+				F58EA68C21FEA00800E7E531 /* WAIMenuBarShowDetailVC.h */,
+				F58EA68D21FEA00800E7E531 /* WAIMenuBarShowDetailVC.m */,
+				F58EA69021FEA28600E7E531 /* WAISegmentModelProtocol.h */,
+				F58EA69121FEA2A800E7E531 /* NSString+SegmentModelProtocol.h */,
+				F58EA69221FEA2A800E7E531 /* NSString+SegmentModelProtocol.m */,
+				F58EA69421FEA7E400E7E531 /* WAISegmentRLButton.h */,
+				F58EA69521FEA7E400E7E531 /* WAISegmentRLButton.m */,
+				F533167321FEF155000818B8 /* WAIMenuCell.h */,
+				F533167421FEF155000818B8 /* WAIMenuCell.m */,
+				F533167521FEF155000818B8 /* WAIMenuCell.xib */,
+			);
+			path = SegmentBarTool;
+			sourceTree = "<group>";
+		};
+		F5CD749C21F96AD3009B5A75 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				F5F1DD1621FAB4CC002BC357 /* Download */,
+				F5CD74CB21F9BCD7009B5A75 /* Find */,
+				F5CD749D21F96AD3009B5A75 /* Other */,
+				F5CD74A021F96AD3009B5A75 /* Main */,
+				F5CD74A321F96AD3009B5A75 /* Base */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		F5CD749D21F96AD3009B5A75 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F5CD74B021F998C0009B5A75 /* main.m */,
+				F5CD749E21F96AD3009B5A75 /* AppDelegate.h */,
+				F5CD749F21F96AD3009B5A75 /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F5CD74A021F96AD3009B5A75 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F5F1DD1D21FADF97002BC357 /* PublicAPI */,
+				F5CD74A121F96AD3009B5A75 /* Controller */,
+				F5CD74A221F96AD3009B5A75 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F5CD74A121F96AD3009B5A75 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F5CD74A921F9958B009B5A75 /* WAINavigationController.h */,
+				F5CD74AA21F9958B009B5A75 /* WAINavigationController.m */,
+				F5CD74BF21F9A6CB009B5A75 /* WAITabBarController.h */,
+				F5CD74C021F9A6CB009B5A75 /* WAITabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F5CD74A221F96AD3009B5A75 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F5CD74A621F98F73009B5A75 /* WAINavigationBar.h */,
+				F5CD74A721F98F73009B5A75 /* WAINavigationBar.m */,
+				F5CD74AC21F99839009B5A75 /* WAITabBar.h */,
+				F5CD74AD21F99839009B5A75 /* WAITabBar.m */,
+				F5CD74B421F99A7A009B5A75 /* WAIMiddleView.h */,
+				F5CD74B521F99A7A009B5A75 /* WAIMiddleView.m */,
+				F5CD74B721F99A8C009B5A75 /* WAIMiddleView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F5CD74A321F96AD3009B5A75 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F5DDC31622002E0D005F5076 /* Const */,
+				F5DDC31522002E0D005F5076 /* Network */,
+				F5DDC31722002E0D005F5076 /* Tool */,
+				F5CD74A421F96AD3009B5A75 /* Category */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F5CD74A421F96AD3009B5A75 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F5CD74BC21F9A2C0009B5A75 /* UIView+WAIExtension.h */,
+				F5CD74BD21F9A2C0009B5A75 /* UIView+WAIExtension.m */,
+				F5CD74C221F9AACF009B5A75 /* CALayer+WAIPauseAnimate.h */,
+				F5CD74C321F9AACF009B5A75 /* CALayer+WAIPauseAnimate.m */,
+				F5CD74C821F9B302009B5A75 /* UIImage+WAIImage.h */,
+				F5CD74C921F9B302009B5A75 /* UIImage+WAIImage.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F5CD74AF21F998AF009B5A75 /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				F5CD74B321F999F7009B5A75 /* PrefixHeader.pch */,
+			);
+			path = sources;
+			sourceTree = "<group>";
+		};
+		F5CD74CB21F9BCD7009B5A75 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				F5CD74CC21F9BCD7009B5A75 /* Model */,
+				F5CD74CD21F9BCD7009B5A75 /* View */,
+				F5CD74CE21F9BCD7009B5A75 /* ViewController */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		F5CD74CC21F9BCD7009B5A75 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F5CD74CD21F9BCD7009B5A75 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F5CD74CE21F9BCD7009B5A75 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F5CD74CF21F9BCE8009B5A75 /* WAIFindViewController.h */,
+				F5CD74D021F9BCE8009B5A75 /* WAIFindViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F5DDC31522002E0D005F5076 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F5DDC3412200532F005F5076 /* WAISessionManager.h */,
+				F5DDC3422200532F005F5076 /* WAISessionManager.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F5DDC31622002E0D005F5076 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				F5DDC31A22002E4C005F5076 /* WAIConst.h */,
+				F5DDC31B22002E4C005F5076 /* WAIConst.m */,
+				F5DDC34A22005B25005F5076 /* Sington.h */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		F5DDC31722002E0D005F5076 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				F5DDC31D22003A1E005F5076 /* WAIDeviceManager.h */,
+				F5DDC31E22003A1E005F5076 /* WAIDeviceManager.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		F5DDC32022003F1E005F5076 /* PublicAPI */ = {
+			isa = PBXGroup;
+			children = (
+				F5011F1722017B8800726860 /* WAIDownLoadAPIDefine.h */,
+			);
+			path = PublicAPI;
+			sourceTree = "<group>";
+		};
+		F5DDC32122003F1E005F5076 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F5DDC335220047B0005F5076 /* WAIDownloadService.h */,
+				F5DDC336220047B0005F5076 /* WAIDownloadService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F5DDC32222003F1E005F5076 /* DataTool */ = {
+			isa = PBXGroup;
+			children = (
+				F5DDC3442200578C005F5076 /* WAIDownLoadDataTool.h */,
+				F5DDC3452200578C005F5076 /* WAIDownLoadDataTool.m */,
+			);
+			path = DataTool;
+			sourceTree = "<group>";
+		};
+		F5DDC32322003F1E005F5076 /* SetValueTool */ = {
+			isa = PBXGroup;
+			children = (
+				F5011F1822017CC800726860 /* WAISetValueTool.h */,
+				F5011F1922017CC800726860 /* WAISetValueTool.m */,
+			);
+			path = SetValueTool;
+			sourceTree = "<group>";
+		};
+		F5F1DD1621FAB4CC002BC357 /* Download */ = {
+			isa = PBXGroup;
+			children = (
+				F5DDC32222003F1E005F5076 /* DataTool */,
+				F5DDC32022003F1E005F5076 /* PublicAPI */,
+				F5DDC32122003F1E005F5076 /* Service */,
+				F5DDC32322003F1E005F5076 /* SetValueTool */,
+				F5C962AA21FC436F0047B7F3 /* SegmentBarTool */,
+				F5F1DD2121FAEB1C002BC357 /* DownloadTool */,
+				F5F1DD1721FAB4CC002BC357 /* Model */,
+				F5F1DD1821FAB4CC002BC357 /* View */,
+				F5F1DD1921FAB4CC002BC357 /* ViewController */,
+			);
+			path = Download;
+			sourceTree = "<group>";
+		};
+		F5F1DD1721FAB4CC002BC357 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5DDC33B22004C38005F5076 /* WAICategoryModel.h */,
+				F5DDC33C22004C38005F5076 /* WAICategoryModel.m */,
+				F5DDC34722005813005F5076 /* WAIShareModel.h */,
+				F5DDC34822005813005F5076 /* WAIShareModel.m */,
+				F5011F122201498700726860 /* WAIDownLoadVoiceModel.h */,
+				F5011F132201498700726860 /* WAIDownLoadVoiceModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F5F1DD1821FAB4CC002BC357 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F5DDC33022004112005F5076 /* WAINoDlownloadView.h */,
+				F5DDC33122004112005F5076 /* WAINoDlownloadView.m */,
+				F5DDC3332200411D005F5076 /* WAINoDlownloadView.xib */,
+				F5011F0D2201491000726860 /* WAITodayFireVoiceCell.h */,
+				F5011F0E2201491000726860 /* WAITodayFireVoiceCell.m */,
+				F5011F0F2201491000726860 /* WAITodayFireVoiceCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F5F1DD1921FAB4CC002BC357 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F5F1DD1A21FAB4DD002BC357 /* WAIDownLoadViewController.h */,
+				F5F1DD1B21FAB4DD002BC357 /* WAIDownLoadViewController.m */,
+				F5DDC32422003F7F005F5076 /* WAIDownloadBaseTVController.h */,
+				F5DDC32522003F7F005F5076 /* WAIDownloadBaseTVController.m */,
+				F5DDC32722003FC5005F5076 /* WAIAlbumTVC.h */,
+				F5DDC32822003FC5005F5076 /* WAIAlbumTVC.m */,
+				F5DDC32A22003FD2005F5076 /* WAIVoiceTVC.h */,
+				F5DDC32B22003FD2005F5076 /* WAIVoiceTVC.m */,
+				F5DDC32D22003FE6005F5076 /* WAIDownloadingTVC.h */,
+				F5DDC32E22003FE6005F5076 /* WAIDownloadingTVC.m */,
+				F5DDC33822004A33005F5076 /* WAITodayFireVC.h */,
+				F5DDC33922004A33005F5076 /* WAITodayFireVC.m */,
+				F5DDC33E22004D85005F5076 /* WAITodayFireVoiceListVC.h */,
+				F5DDC33F22004D85005F5076 /* WAITodayFireVoiceListVC.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F5F1DD1D21FADF97002BC357 /* PublicAPI */ = {
+			isa = PBXGroup;
+			children = (
+				F5F1DD1E21FADFBD002BC357 /* WAIMainModuleAPI.h */,
+				F5F1DD1F21FADFBD002BC357 /* WAIMainModuleAPI.m */,
+			);
+			path = PublicAPI;
+			sourceTree = "<group>";
+		};
+		F5F1DD2121FAEB1C002BC357 /* DownloadTool */ = {
+			isa = PBXGroup;
+			children = (
+				F5F1DD2221FAEDD9002BC357 /* WAIDownLoader.h */,
+				F5F1DD2321FAEDD9002BC357 /* WAIDownLoader.m */,
+				F5F1DD2521FAEEF1002BC357 /* WAIFileTool.h */,
+				F5F1DD2621FAEEF1002BC357 /* WAIFileTool.m */,
+				F5C962A721FC34590047B7F3 /* WAIDownloadManager.h */,
+				F5C962A821FC34590047B7F3 /* WAIDownloadManager.m */,
+			);
+			path = DownloadTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +515,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5C53D1521E4A9E700AC6AB5 /* Build configuration list for PBXNativeTarget "CJFM" */;
 			buildPhases = (
+				B1DC417F529C4245979449F4 /* [CP] Check Pods Manifest.lock */,
 				F5C53CFB21E4A9E500AC6AB5 /* Sources */,
 				F5C53CFC21E4A9E500AC6AB5 /* Frameworks */,
 				F5C53CFD21E4A9E500AC6AB5 /* Resources */,
+				D4244AC4612AB734DBBE8448 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -97,6 +536,7 @@
 		F5C53CF721E4A9E500AC6AB5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WAI;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Eric;
 				TargetAttributes = {
@@ -129,21 +569,105 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5C53D0F21E4A9E700AC6AB5 /* LaunchScreen.storyboard in Resources */,
+				F5011F112201491000726860 /* WAITodayFireVoiceCell.xib in Resources */,
+				F5CD74B821F99A8C009B5A75 /* WAIMiddleView.xib in Resources */,
 				F5C53D0C21E4A9E700AC6AB5 /* Assets.xcassets in Resources */,
+				F533167721FEF155000818B8 /* WAIMenuCell.xib in Resources */,
+				F5DDC3342200411D005F5076 /* WAINoDlownloadView.xib in Resources */,
 				F5C53D0A21E4A9E500AC6AB5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B1DC417F529C4245979449F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CJFM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4244AC4612AB734DBBE8448 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CJFM/Pods-CJFM-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CJFM/Pods-CJFM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F5C53CFB21E4A9E500AC6AB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5C53D0721E4A9E500AC6AB5 /* ViewController.m in Sources */,
-				F5C53D1221E4A9E700AC6AB5 /* main.m in Sources */,
-				F5C53D0421E4A9E500AC6AB5 /* AppDelegate.m in Sources */,
+				F5F1DD2021FADFBD002BC357 /* WAIMainModuleAPI.m in Sources */,
+				F5CD74B121F998C0009B5A75 /* main.m in Sources */,
+				F5CD74C421F9AACF009B5A75 /* CALayer+WAIPauseAnimate.m in Sources */,
+				F5C962A921FC34590047B7F3 /* WAIDownloadManager.m in Sources */,
+				F5DDC32622003F7F005F5076 /* WAIDownloadBaseTVController.m in Sources */,
+				F5DDC33D22004C38005F5076 /* WAICategoryModel.m in Sources */,
+				F5F1DD2721FAEEF1002BC357 /* WAIFileTool.m in Sources */,
+				F5DDC31C22002E4C005F5076 /* WAIConst.m in Sources */,
+				F5CD74C121F9A6CB009B5A75 /* WAITabBarController.m in Sources */,
+				F5DDC32C22003FD2005F5076 /* WAIVoiceTVC.m in Sources */,
+				F5C962B321FC57510047B7F3 /* WAISegmentBarConfig.m in Sources */,
+				F58EA68E21FEA00800E7E531 /* WAIMenuBarShowDetailVC.m in Sources */,
+				F533167621FEF155000818B8 /* WAIMenuCell.m in Sources */,
+				F5DDC33A22004A33005F5076 /* WAITodayFireVC.m in Sources */,
+				F5DDC337220047B0005F5076 /* WAIDownloadService.m in Sources */,
+				F5DDC33222004112005F5076 /* WAINoDlownloadView.m in Sources */,
+				F5011F102201491000726860 /* WAITodayFireVoiceCell.m in Sources */,
+				F5CD74A521F96AD3009B5A75 /* AppDelegate.m in Sources */,
+				F5B83E4C21FED30C00E83209 /* WAISegmentRLButton.m in Sources */,
+				F5DDC34922005813005F5076 /* WAIShareModel.m in Sources */,
+				F5011F1A22017CC800726860 /* WAISetValueTool.m in Sources */,
+				F5CD74D121F9BCE8009B5A75 /* WAIFindViewController.m in Sources */,
+				F5CD74A821F98F73009B5A75 /* WAINavigationBar.m in Sources */,
+				F5CD74CA21F9B302009B5A75 /* UIImage+WAIImage.m in Sources */,
+				F5DDC3432200532F005F5076 /* WAISessionManager.m in Sources */,
+				F5DDC34022004D85005F5076 /* WAITodayFireVoiceListVC.m in Sources */,
+				F5F1DD2421FAEDD9002BC357 /* WAIDownLoader.m in Sources */,
+				F5DDC32F22003FE6005F5076 /* WAIDownloadingTVC.m in Sources */,
+				F5CD74B621F99A7A009B5A75 /* WAIMiddleView.m in Sources */,
+				F5CD74BE21F9A2C0009B5A75 /* UIView+WAIExtension.m in Sources */,
+				F5DDC31F22003A1E005F5076 /* WAIDeviceManager.m in Sources */,
+				F5C962AD21FC45CB0047B7F3 /* WAISegmentBar.m in Sources */,
+				F5C962B021FC51130047B7F3 /* WAISegmentViewController.m in Sources */,
+				F5011F142201498700726860 /* WAIDownLoadVoiceModel.m in Sources */,
+				F58EA69321FEA2A800E7E531 /* NSString+SegmentModelProtocol.m in Sources */,
+				F5DDC32922003FC5005F5076 /* WAIAlbumTVC.m in Sources */,
+				F5CD74AB21F9958B009B5A75 /* WAINavigationController.m in Sources */,
+				F5DDC3462200578C005F5076 /* WAIDownLoadDataTool.m in Sources */,
+				F5F1DD1C21FAB4DD002BC357 /* WAIDownLoadViewController.m in Sources */,
+				F5CD74AE21F99839009B5A75 /* WAITabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,15 +807,16 @@
 		};
 		F5C53D1621E4A9E700AC6AB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A33C264D862E385F2A4E35D5 /* Pods-CJFM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EJ7WBKMWJX;
+				GCC_PREFIX_HEADER = CJFM/sources/PrefixHeader.pch;
 				INFOPLIST_FILE = CJFM/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xyf.FM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,15 +825,16 @@
 		};
 		F5C53D1721E4A9E700AC6AB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92540884DB9273FE3E8031E4 /* Pods-CJFM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EJ7WBKMWJX;
+				GCC_PREFIX_HEADER = CJFM/sources/PrefixHeader.pch;
 				INFOPLIST_FILE = CJFM/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xyf.FM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

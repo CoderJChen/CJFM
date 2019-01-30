@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="I7M-kU-QbH" customClass="WAINoDlownloadView">
+            <rect key="frame" x="0.0" y="0.0" width="242" height="239"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noData_download" translatesAutoresizingMaskIntoConstraints="NO" id="NbR-o7-dkm">
+                    <rect key="frame" x="46" y="0.0" width="150" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="ZW7-Zm-5Ip"/>
+                        <constraint firstAttribute="height" constant="150" id="wFG-Gz-UvQ"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KtZ-cL-tfA">
+                    <rect key="frame" x="81" y="166" width="80" height="30"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="DtE-Ts-2mJ"/>
+                        <constraint firstAttribute="width" constant="80" id="sDj-Xg-hJa"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="去看看">
+                        <color key="titleColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="goView" destination="I7M-kU-QbH" eventType="touchUpInside" id="EJA-j3-d1C"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="NbR-o7-dkm" firstAttribute="centerX" secondItem="I7M-kU-QbH" secondAttribute="centerX" id="04n-Xq-9ND"/>
+                <constraint firstItem="KtZ-cL-tfA" firstAttribute="top" secondItem="NbR-o7-dkm" secondAttribute="bottom" constant="16" id="IW9-R9-iCd"/>
+                <constraint firstItem="NbR-o7-dkm" firstAttribute="top" secondItem="I7M-kU-QbH" secondAttribute="top" id="OLx-t4-qQ9"/>
+                <constraint firstItem="KtZ-cL-tfA" firstAttribute="centerX" secondItem="NbR-o7-dkm" secondAttribute="centerX" id="qK7-lU-fQ3"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="noDataImageView" destination="NbR-o7-dkm" id="sne-ot-Ok1"/>
+            </connections>
+            <point key="canvasLocation" x="297" y="74.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="noData_download" width="500" height="560"/>
+    </resources>
+</document>
